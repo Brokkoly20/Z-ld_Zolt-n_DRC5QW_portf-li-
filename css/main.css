@@ -1,0 +1,157 @@
+body{
+	font-size: 16px;
+	font-weight: 300;
+	/*background-image: url(https://d1.awsstatic.com/case-studies/US/Formula-one-monaco-race.a21165be0bf979d98d440e82b033e1629cdad8fb.jpg);
+	background-image opacity: 50%;*/
+	background-color:  #e6ffff;
+}
+
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+
+.klassz{
+	
+	max-width: 100%;
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.foto{
+	max-height: 30rem;
+}
+
+img{
+	max-width: 100%;
+	max-height: max-content;
+	max-height: 30rem;
+}
+
+
+
+h1{
+	font-size: 64px;
+ 	text-align: center;
+ 	color: #000000;
+ 	margin: 2rem 1rem;
+	font-family: 'Nerko One', cursive;
+
+}
+
+
+h2{
+	font-size: 3rem;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 6rem;
+ 	font-family: 'Nerko One', cursive; 
+}
+
+
+
+header{
+	line-height: 1rem;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.gomb{
+	font-size: 1.5rem;
+	display: inline-table;
+	padding:1rem 1rem 1rem 1rem;
+	margin:1rem 1rem 10rem 1rem;
+	transition: .3s;
+	background-color: #cce6ff;
+	color: #0033cc;
+	font-weight: bold;
+	max-width: 100%;
+	font-family: 'Rubik', sans-serif;
+	line-height: 1.5rem;
+}
+
+
+.gomb:hover{
+	cursor: pointer;
+	-webkit-box-shadow: inset 0px 0px 23px 4px rgba(53,53,53,0.58); 
+	box-shadow: inset 0px 0px 23px 4px rgba(53,53,53,0.58);
+}
+
+
+
+span{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+
+.RÉSZ{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	font-size: 1.5rem;
+	margin: 2rem 0rem;
+	border: 2px lightgrey;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4rem;
+}
+
+
+.gomb a{
+	text-decoration: none;
+	color: #0033cc;
+}
+
+.szöveg{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 0rem 10rem 0rem 10rem;
+	max-width: 100%: 
+	padding: 3rem;
+}
+
+.betű{
+	font-family: 'Nerko One', cursive;
+	color:#000000;
+	margin: 10rem;
+	font-size: 2rem;
+	padding-bottom: 2rem; 
+}
+
+
+.grid2 .kep{
+	height: 20rem;
+	margin-bottom: 3rem; 
+	margin-right: 3rem;
+	margin-left: 3rem;
+	flex-grow: 1;
+}
+
+.grid2 .kep img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.grid2 .kep img:hover{
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 25px 17px rgba(0,0,0,0.13); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 25px 17px rgba(0,0,0,0.13);
+}
+
+.grid2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul .lista{
+	margin-bottom: 5rem;
+}
